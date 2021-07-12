@@ -4,11 +4,11 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ![sciter fontawesome](screenshot.png)
 
-## test it
+## get started
 
 - git clone the repository
 - run `install.bat` to download the latest sciter binaries and library
-- start `scapp.exe`
+- run `scapp.bat`
 - to refresh the app after changes to the html/css click `F5`
 
 ## install
