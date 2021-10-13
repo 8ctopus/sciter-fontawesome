@@ -4,19 +4,18 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ![sciter fontawesome](screenshot.png)
 
-## get started
+## demo
 
 - git clone the repository
-- run `install.bat` to download the latest sciter binaries and library
-- run `scapp.bat`
-- to refresh the app after changes to the html/css click `F5`
+- run `install.bat` on Windows or `install.sh` on Mac to download the latest sciter binaries and library
+- run `scapp.bat` / `scapp.sh`
 
 ## install
 
 - add the `src` dir to your project
 - then in your code include `<style src="src/fontawesome.css" />`
 
-# how to get the fontawesome css to work
+## how to convert fontawesome css to work with sciter
 
 Download in respective directories `css` and `fonts`:
 
