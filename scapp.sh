@@ -2,4 +2,4 @@
 open -a inspector.app
 
 # open scapp application in debug mode
-bin/macosx/scapp src/scapp.html --debug
+bin/macosx/scapp scapp.html --debug
