@@ -8,11 +8,11 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 - git clone the repository
 - run `install.bat` on Windows or `install.sh` on Mac to download the latest sciter binaries and library
-- run `scapp.bat` / `scapp.sh`
+- run `scapp.bat` or `scapp.sh`
 
 ## install
 
-- add the `src` dir to your project
+- add the `src` dir to your project or use the sciter package manager
 - include `<style src="src/fontawesome.css" />`
 
 ## how to convert fontawesome css to work with sciter
