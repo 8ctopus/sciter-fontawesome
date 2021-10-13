@@ -4582,7 +4582,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../fonts/fa-brands-400.ttf");
+  src: url("fa-brands-400.ttf");
 }
 
 .fab {
@@ -4595,7 +4595,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  src: url("../fonts/fa-regular-400.ttf");
+  src: url("fa-regular-400.ttf");
 }
 
 .far {
@@ -4608,7 +4608,7 @@ readers do not read off random characters that represent icons */
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url("../fonts/fa-solid-900.ttf");
+  src: url("fa-solid-900.ttf");
 }
 
 .fa,
