@@ -17,7 +17,7 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ## how to convert fontawesome css to work with sciter
 
-Download in respective directories `css` and `fonts`:
+- Download:
 
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.ttf
