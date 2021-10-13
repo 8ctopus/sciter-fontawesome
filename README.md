@@ -13,7 +13,7 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 ## install
 
 - add the `src` dir to your project
-- then in your code include `<style src="src/fontawesome.css" />`
+- include `<style src="src/fontawesome.css" />`
 
 ## how to convert fontawesome css to work with sciter
 
