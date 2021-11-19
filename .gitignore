@@ -1,5 +1,5 @@
 /bin/
+/vendor/
 
 /*.sublime-workspace
-
-/vendor/
+/*.log

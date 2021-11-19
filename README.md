@@ -7,9 +7,9 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 ## demo
 
 - git clone the repository
-- on Mac only `chmod +x install.sh start.sh`
-- run `install.bat` on Windows or `./install.sh` on Mac to download the latest sciter binaries and library
-- run `start.bat` or `./start.sh`
+- on Linux/Mac `chmod +x install.sh start.sh`
+- run `install.bat` (Win) or `./install.sh` (Linux/Mac) to download the latest sciter binaries and the sciter package manager
+- run `start.bat` (Win) or `./start.sh` (Linux/Mac)
 
 ## install
 
