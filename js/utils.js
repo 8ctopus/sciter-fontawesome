@@ -1,6 +1,6 @@
 "use strict";
 
-// add scapp refresh
+// add refresh on f5 key press
 document.on("keydown", function(event, element) {
     if (event.code !== "KeyF5")
         return;
@@ -28,7 +28,7 @@ document.on("ready", function() {
     const left = (sw + 1 - ww) / 2;
     const top  = (sh + 1 - wh) / 2;
 
-    // move window
+    // center window
     Window.this.move(left, top);
 
     // set focus
