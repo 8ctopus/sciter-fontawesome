@@ -1,6 +1,6 @@
 {
   "name": "sciter-fontawesome",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "install-sdk": "node ./node_modules/sciter-sandbox/scripts/install.mjs",
     "scapp": "node ./node_modules/sciter-sandbox/scripts/start.mjs scapp",
