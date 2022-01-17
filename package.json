@@ -1,14 +1,18 @@
 {
   "name": "sciter-fontawesome",
   "version": "1.0.3",
+  "description": "sciter.js fontawesome support",
+  "keywords": [
+    "sciter.js",
+    "fontawesome"
+  ],
   "scripts": {
-    "install-sdk": "node ./node_modules/sciter-sandbox/scripts/install.mjs",
-    "scapp": "node ./node_modules/sciter-sandbox/scripts/start.mjs scapp",
-    "scapp64": "node ./node_modules/sciter-sandbox/scripts/start.mjs scapp64",
-    "usciter": "node ./node_modules/sciter-sandbox/scripts/start.mjs usciter",
-    "usciter64": "node ./node_modules/sciter-sandbox/scripts/start.mjs usciter64",
-    "stop": "node ./node_modules/sciter-sandbox/scripts/stop.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install-sdk": "node ./scripts/install.mjs cleanup",
+    "scapp": "node ./scripts/start.mjs scapp",
+    "usciter": "node ./scripts/start.mjs usciter",
+    "stop": "node ./scripts/stop.mjs",
+    "scapp32": "node ./scripts/start.mjs scapp32",
+    "usciter32": "node ./scripts/start.mjs usciter32"
   },
   "author": {
     "name": "8ctopus",
@@ -16,9 +20,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/8ctopus/sciter-layout/issues"
+    "url": "https://github.com/8ctopus/sciter-fontawesome/issues"
   },
-  "homepage": "https://github.com/8ctopus/sciter-layout#readme",
+  "homepage": "https://github.com/8ctopus/sciter-fontawesome#readme",
   "devDependencies": {
     "sciter-sandbox": "^1.1.5"
   }

@@ -2,7 +2,7 @@
 
 Fontawesome support for [sciter.js](https://sciter.com/).
 
-![sciter fontawesome](screenshot.png)
+![sciter fontawesome](https://github.com/8ctopus/sciter-fontawesome/raw/master/screenshot.png)
 
 ## requirements
 
