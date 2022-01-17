@@ -19,6 +19,13 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ## install
 
+### using npm
+
+- install package `npm install sciter-fontawesome`
+- include `<style src="node_modules/sciter-fontawesome/src/fontawesome.css" />`
+
+### copy source
+
 - add the `src` dir to your project
 - include `<style src="src/fontawesome.css" />`
 
