@@ -24,20 +24,20 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ## how to convert fontawesome css to work with sciter
 
-- Download:
+- download
 
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.ttf
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.ttf
     https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.ttf
 
-In `all.css`
+- in all `all.css`
 
-- remove unrecognized `@-webkit-keyframes` properties
-- replace all `:before` by `::before`
-- remove all `src` from `@font-face` except the ttf ones
-- remove `format("truetype")` from `@font-face`
-- add to the end of file
+    - remove unrecognized `@-webkit-keyframes` properties
+    - replace all `:before` by `::before`
+    - remove all `src` from `@font-face` except the ttf ones
+    - remove `format("truetype")` from `@font-face`
+    - add to the end of file
 
 ```css
 // reset ux-master.css default vertical flow
