@@ -1,0 +1,24 @@
+{
+  "name": "sciter-layout",
+  "scripts": {
+    "install-sdk": "node ./node_modules/sciter-sandbox/scripts/install.mjs",
+    "scapp": "node ./node_modules/sciter-sandbox/scripts/start.mjs scapp",
+    "scapp64": "node ./node_modules/sciter-sandbox/scripts/start.mjs scapp64",
+    "usciter": "node ./node_modules/sciter-sandbox/scripts/start.mjs usciter",
+    "usciter64": "node ./node_modules/sciter-sandbox/scripts/start.mjs usciter64",
+    "stop": "node ./node_modules/sciter-sandbox/scripts/stop.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "8ctopus",
+    "email": "hello@octopuslabs.io"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/8ctopus/sciter-layout/issues"
+  },
+  "homepage": "https://github.com/8ctopus/sciter-layout#readme",
+  "devDependencies": {
+    "sciter-sandbox": "^1.1.5"
+  }
+}

@@ -4,16 +4,22 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ![sciter fontawesome](screenshot.png)
 
+## requirements
+
+- A recent version of Node.js `node` (tested with 16 LTS) and its package manager `npm`.
+    - On Windows [download](https://nodejs.dev/download/) and run the installer
+    - On Linux check the [installation guide](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-20-04#option-2-%E2%80%94-installing-node-js-with-apt-using-a-nodesource-ppa)
+
 ## demo
 
 - git clone the repository
-- on Linux/Mac `chmod +x install.sh start.sh`
-- run `install.bat` (Win) or `./install.sh` (Linux/Mac) to download the latest sciter binaries and the sciter package manager
-- run `start.bat` (Win) or `./start.sh` (Linux/Mac)
+- install packages `npm install`
+- install latest sciter sdk `npm run install-sdk`
+- start the demo `npm run scapp`
 
 ## install
 
-- add the `src` dir to your project or use the sciter package manager
+- add the `src` dir to your project
 - include `<style src="src/fontawesome.css" />`
 
 ## how to convert fontawesome css to work with sciter
