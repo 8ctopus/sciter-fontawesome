@@ -31,7 +31,11 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 
 ## known issues
 
-- on linux the fontawesome font cannot be installed
+- on linux the fontawesome font cannot be installed [\*](https://sciter.com/forums/topic/css-load-font-on-linux-fails/)
+
+    >> Current Linux implementation does not support this functionality.
+    >> GTK/Cairo has no means for that.
+    >> Please wait for Sciter 5.X.X.X where I am switching to Skia as a primary backend on Linux.
 
 ## how to convert fontawesome css to work with sciter
 
