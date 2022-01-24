@@ -1,12 +1,13 @@
 <html
     window-resizable="true"
-    window-width="400dip"
-    window-height="200dip"
+    window-width="500dip"
+    window-height="300dip"
 >
 <head>
 <title>sciter fontawesome demo</title>
 <style>
 
+@import url(node_modules/sciter-logger/src/logger.css);
 @import url(src/fontawesome.css);
 
 html > * {
@@ -14,7 +15,42 @@ html > * {
 }
 
 </style>
-<script src="js/utils.js" />
+<script type="module">
+
+import Logger from "./node_modules/sciter-logger/src/logger.js";
+import * as Utils from "./node_modules/sciter-utils/src/utils.js";
+
+// capture unhandled exceptions
+Logger.capture();
+
+// initialize logger
+Logger.init();
+
+// attach logger to console
+Logger.attach();
+
+document.on("ready", function() {
+    // redirect logger output to plaintext
+    Logger.plaintext(document.$("plaintext#logger"));
+
+    // add support for F5 reload
+    Utils.addReloadWindow();
+
+    // close window on escape key press
+    Utils.closeWindowOnEscape(Window.this);
+
+    // center window on screen
+    Utils.centerWindow(Window.this, "screen");
+
+    // bring window to front and set input focus
+    if (!Window.this.activate(true))
+        console.error("Activate window - FAILED");
+
+    // log sciter version
+    console.debug(Utils.sciterInfo());
+});
+
+</script>
 </head>
 <body>
     <div>
@@ -26,5 +62,6 @@ html > * {
     <div>
         <button><i class="fas fa-star"></i>icons aligned inside button<i class="fas fa-star"></i></button>
     </div>
+    <plaintext #logger readonly />
 </body>
 </html>
