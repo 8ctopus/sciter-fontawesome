@@ -1,6 +1,6 @@
 # sciter fontawesome
 
-Fontawesome support for [sciter.js](https://sciter.com/).
+Fontawesome 6 support for [sciter.js](https://sciter.com/).
 
 ![sciter fontawesome](https://github.com/8ctopus/sciter-fontawesome/raw/master/screenshot.png)
 
@@ -51,10 +51,12 @@ Fontawesome support for [sciter.js](https://sciter.com/).
 - in all `all.css`
 
     - remove unrecognized `@-webkit-keyframes` properties
+    - remove all `:root, :host {...}`
     - replace all `:before` by `::before`
-    - remove all `src` from `@font-face` except the ttf ones
+    - remove all `src` from `@font-face` except the `ttf` ones
     - remove `format("truetype")` from `@font-face`
-    - add to the end of file
+    - comment `unicode-range:...;`
+    - finally add to the end of file
 
 ```css
 // reset ux-master.css default vertical flow
