@@ -37,6 +37,8 @@ Fontawesome support for [sciter.js](https://sciter.com/).
     >> GTK/Cairo has no means for that.
     >> Please wait for Sciter 5.X.X.X where I am switching to Skia as a primary backend on Linux.
 
+- [css `@keyframes` are not working since 4.4.8.27](https://sciter.com/forums/topic/css-keyframes-issue/)
+
 ## how to convert fontawesome css to work with sciter
 
 - download
