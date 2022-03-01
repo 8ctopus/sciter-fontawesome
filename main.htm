@@ -33,21 +33,8 @@ document.on("ready", function() {
     // redirect logger output to plaintext
     Logger.plaintext(document.$("plaintext#logger"));
 
-    // add support for F5 reload
-    Utils.addReloadWindow();
-
     // close window on escape key press
     Utils.closeWindowOnEscape(Window.this);
-
-    // center window on screen
-    Utils.centerWindow(Window.this, "screen");
-
-    // bring window to front and set input focus
-    if (!Window.this.activate(true))
-        console.error("Activate window - FAILED");
-
-    // log sciter version
-    console.debug(Utils.sciterInfo());
 });
 
 </script>
