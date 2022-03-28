@@ -235,6 +235,7 @@
   -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
           animation-timing-function: var(--fa-animation-timing, steps(8)); }
 
+/* SCITER 4.4.8.32 attempt to get/set state 'reduce' on null while media expression evaluation at
 @media (prefers-reduced-motion: reduce) {
   .fa-beat,
   .fa-bounce,
@@ -253,7 +254,7 @@
             animation-iteration-count: 1;
     transition-delay: 0s;
     transition-duration: 0s; } }
-
+*/
 /* @keyframes do not work since 4.4.8.27, NEEDS TO BE FIXED
 @-webkit-keyframes fa-beat {
   0%, 90% {
