@@ -21,7 +21,7 @@
   },
   "license": "MIT",
   "files": [
-    "src/*"
+    "src"
   ],
   "bugs": {
     "url": "https://github.com/8ctopus/sciter-fontawesome/issues"
