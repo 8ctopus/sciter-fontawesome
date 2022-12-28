@@ -20,6 +20,9 @@
     "email": "hello@octopuslabs.io"
   },
   "license": "MIT",
+  "files": [
+    "src/*"
+  ],
   "bugs": {
     "url": "https://github.com/8ctopus/sciter-fontawesome/issues"
   },
