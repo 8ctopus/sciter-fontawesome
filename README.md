@@ -43,19 +43,21 @@ Fontawesome 6 support for [sciter.js](https://sciter.com/).
 
 - download
 
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.css
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-brands-400.ttf
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-regular-400.ttf
-    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/webfonts/fa-solid-900.ttf
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.css
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-brands-400.ttf
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-regular-400.ttf
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-solid-900.ttf
+    https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/webfonts/fa-v4compatibility.ttf
 
 - in all `all.css`
 
-    - remove unrecognized `@-webkit-keyframes` properties
     - remove all `:root, :host {...}`
-    - replace all `:before` by `::before`
     - remove all `src` from `@font-face` except the `ttf` ones
     - remove `format("truetype")` from `@font-face`
     - comment `unicode-range:...;`
+
+    - remove unrecognized `@-webkit-keyframes` properties
+    - replace all `:before` by `::before`
     - finally add to the end of file
 
 ```css
