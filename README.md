@@ -1,5 +1,8 @@
 # sciter fontawesome
 
+![latest version](https://img.shields.io/npm/v/sciter-fontawesome.svg)
+![downloads](https://img.shields.io/npm/dy/sciter-fontawesome.svg)
+
 Fontawesome 6 support for [sciter.js](https://sciter.com/).
 
 ![sciter fontawesome](https://github.com/8ctopus/sciter-fontawesome/raw/master/screenshot.png)
